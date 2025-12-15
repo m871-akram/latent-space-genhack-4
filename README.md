@@ -2,7 +2,6 @@
 
 
 
-
 ### **LATENT-SPACE [16]** — GenHack 2025 : 
 
 
