@@ -48,7 +48,7 @@ and *less* accurate over dense, low-vegetation urban zones, because of the Urban
 
 ---
 
-## Data
+## Data & Setup
 
 | Dataset | Purpose | Resolution / Coverage |
 |---|---|---|
@@ -60,8 +60,6 @@ and *less* accurate over dense, low-vegetation urban zones, because of the Urban
 | **Natural Earth — Ocean (50 m)** | Distance-to-coast feature | cached at `data/ne_ocean_50m.gpkg` |
 
 ---
-
-## Setup
 
 ```bash
 pip install -r requirements.txt
@@ -103,7 +101,7 @@ jupyter nbconvert --to notebook --execute --inplace "week{4}_team{16}.ipynb"
 
 ---
 
-## Diagnosis (key findings)
+## Key findings
 
 - **Cold bias, seasonal shape.** ERA5 − station ≈ −1.24 °C over Wien, most negative in
   spring/summer; correctly recovered with point-in-polygon city/ring masking.
