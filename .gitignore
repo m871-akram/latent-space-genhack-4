@@ -1,0 +1,23 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large source datasets (kept in Google Drive, not the repo).
+# data/ne_ocean_50m.gpkg IS tracked (needed for offline distance-to-coast).
+ECA_blend_tx/
+*.nc
+*.tif
