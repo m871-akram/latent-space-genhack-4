@@ -128,15 +128,6 @@ jupyter nbconvert --to notebook --execute --inplace "week{4}_team{16}.ipynb"
 
 ---
 
-## Repository layout
-
-```
-week{4}_team{16}.ipynb     # the single reorganized analysis notebook (all weeks)
-requirements.txt           # pinned-ish dependencies
-data/ne_ocean_50m.gpkg     # cached coastline (distance-to-coast feature)
-README.md                  # this file
-```
-
 ## Resources
 - [ERA5-Land](https://confluence.ecmwf.int/display/CKB/ERA5-Land) ·
   [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) ·
